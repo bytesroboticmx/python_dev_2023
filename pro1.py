@@ -18,6 +18,12 @@ def tokenize_sentence(sentence):
 #oracion de ejemplo
 input_sentence = "NLTK es una biblioteca de Python para el procesamiento de lenguaje natural."
 
+#Llama la funcion para tokenizar la oración
+tokenize_words = tokenize_sentence(input_sentence)
 
+#Imprime la lista de palabras tokenizadas
+print("Palabras tokenizadas: ")
+for word in tokenize_words:
+    print(word)
 
 
