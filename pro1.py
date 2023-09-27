@@ -3,3 +3,5 @@
 #Fecha: 20/08/2019
 #Versión: 1.0
 #Correo: bytesroboticmx@gmail.com
+import nltk
+nltk.download('punkt') #Descarga los datos necesarios para el análisis de texto
